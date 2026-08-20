@@ -1,0 +1,7 @@
+# dsh-plugin-glm-vision bundle layer
+- insert:
+    - id: glm-vision
+      name: dsh-plugin-glm-vision
+      config:
+        glmApiKeyEnv: GLM_API_KEY
+        toolTimeoutMs: 120000
