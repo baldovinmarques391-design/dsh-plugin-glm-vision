@@ -1,0 +1,6 @@
+url: https://github.com/baldovinmarques391-design/dsh-plugin-glm-vision
+name: baldovinmarques391-design/dsh-plugin-glm-vision
+category: vision
+description:
+  en: Image translation for non-multimodal models via GLM-4V-Flash: intercepts uploaded images, calls GLM-4V-Flash to generate detailed descriptions, and injects them as text so any model can "see" images. Includes an image_query tool for on-demand vision Q&A, SHA-256 content-addressed image cache, and multi-image support.
+  zh: 通过 GLM-4V-Flash 为不支持多模态的模型提供图片识别能力：拦截用户上传的图片，调用 GLM-4V-Flash 生成详细描述并注入对话，支持多图、image_query 工具和图片缓存。

@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-glm-vision",
   "version": "2.1.0",
-  "description": "GLM Vision plugin for DSH: image translation for non-multimodal models, persistent image cache, and vision Q&A tool via GLM-4V-Flash.",
+  "description": "Image translation for non-multimodal models via GLM-4V-Flash: intercepts images, generates descriptions, injects as text.",
   "type": "module",
   "main": "index.js",
   "exports": {
@@ -21,6 +21,10 @@
       "patch": "./cordis.patch.yml"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baldovinmarques391-design/dsh-plugin-glm-vision.git"
+  },
   "scripts": {
     "lint": "echo 'no linter configured'",
     "test": "node test/run-tests.mjs"
@@ -35,7 +39,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@deepseek-ai/dsh-tools": "*",
-    "@deepseek-ai/cordis": "*"
+    "@deepseek-ai/dsh-tools": ">=0.0.1-rc.1 <0.1.0 || >=0.1.0-rc.1 <0.2.0-0",
+    "@deepseek-ai/cordis": ">=4.0.0 <5.0.0"
   }
 }
